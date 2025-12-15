@@ -1567,6 +1567,27 @@ export const extensions: IFileCollection = {
       format: FileFormat.svg,
     },
     {
+      icon: 'devvit',
+      filename: true,
+      filenamesGlob: ['devvit', 'devvit.dev', 'devvit.prod', 'devvit.test'],
+      extensions: [],
+      extensionsGlob: ['json'],
+      format: FileFormat.svg,
+    },
+    {
+      icon: 'devvit',
+      filename: true,
+      filenamesGlob: [
+        'devvit.config',
+        'devvit.config.dev',
+        'devvit.config.prod',
+        'devvit.config.test',
+      ],
+      extensions: [],
+      extensionsGlob: ['js', 'cjs', 'mjs', 'ts', 'mts'],
+      format: FileFormat.svg,
+    },
+    {
       icon: 'dhall',
       extensions: [],
       light: true,
